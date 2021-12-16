@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 html,body{
-    background-image: url('https://mcdn.wallpapersafari.com/medium/37/48/dxjKpR.jpg');
+    background-color: #242236 !important;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-family: 'Numans', sans-serif;
     }
     
-    .container{
+    .container2{
     height: 100%;
     align-content: center;
     }
     
     .card{
-    height: 370px;
+    height: 300px;
     margin-top: auto;
     margin-bottom: auto;
     width: 400px;
@@ -43,7 +43,7 @@ html,body{
     
     .input-group-prepend span{
     width: 50px;
-    background-color: #FFC312;
+    background-color: purple;
     color: black;
     border:0 !important;
     }
@@ -68,13 +68,12 @@ html,body{
     
     .login_btn{
     color: black;
-    background-color: #FFC312;
     width: 100px;
+    background-color: white !important;
     }
-    
+
     .login_btn:hover{
-    color: black;
-    background-color: white;
+    background-color: rgb(226, 226, 226) !important;
     }
     
     .links{
