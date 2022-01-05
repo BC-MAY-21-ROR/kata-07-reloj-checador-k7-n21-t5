@@ -84,4 +84,3 @@ production:
   database: kata_07_reloj_checador_k7_n21_t5_production
   username: kata_07_reloj_checador_k7_n21_t5
   password: <%= ENV['KATA_07_RELOJ_CHECADOR_K7_N21_T5_DATABASE_PASSWORD'] %>
-  url: postgres://cnsuzsygcockhf:51bc3d5efa4e80192fbe9763c59e8117d1fe2781fe2d4eb2bb552b73e265126a@ec2-3-224-251-59.compute-1.amazonaws.com:5432/deg0o4g0jqf8ia
