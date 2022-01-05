@@ -1,86 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 html,body{
     background-color: #242236 !important;
-    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
+    background-size: cover;
     font-family: 'Numans', sans-serif;
+    height: 100%;
     }
     
-    .container2{
-    height: 100%;
+    .login-container{
     align-content: center;
+    height: 100%;
+    margin-top: 10rem;
     }
     
     .card{
-    height: 370px;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 400px;
     background-color: rgba(0,0,0,0.5) !important;
-    }
-    
-    .social_icon span{
-    font-size: 60px;
-    margin-left: 10px;
-    color: #FFC312;
-    }
-    
-    .social_icon span:hover{
-    color: white;
-    cursor: pointer;
+    height: 300px;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 400px;
     }
     
     .card-header h3{
     color: white;
     }
     
-    .social_icon{
-    position: absolute;
-    right: 20px;
-    top: -45px;
-    }
-    
     .input-group-prepend span{
-    width: 50px;
-    background-color: #FFC312;
-    color: black;
+    background-color: purple;
     border:0 !important;
+    color: black;
+    width: 50px;
     }
     
     input:focus{
-    outline: 0 0 0 0  !important;
     box-shadow: 0 0 0 0 !important;
+    outline: 0 0 0 0  !important;
     
-    }
-    
-    .remember{
-    color: white;
-    }
-    
-    .remember input
-    {
-    width: 20px;
-    height: 20px;
-    margin-left: 15px;
-    margin-right: 5px;
-    }
-    
+    }  
     .login_btn{
-    color: black;
-    background-color: #FFC312;
     width: 100px;
     }
-    
+
     .login_btn:hover{
-    color: black;
-    background-color: white;
+    background-color: rgb(226, 226, 226) !important;
     }
     
-    .links{
-    color: white;
-    }
-    
-    .links a{
-    margin-left: 4px;
-    }
