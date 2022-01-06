@@ -14,7 +14,6 @@ const secondHand = document.getElementById('second-hand');
 const digitalTime = document.getElementById('digital-time');
 
 let darkMode = localStorage.getItem('darkmode');
-// console.log(darkMode);
 if (darkMode == 'yes') {
 	document.body.classList.add('dark');
 	document.getElementById('dark-mode-toggle').checked = 'true';
@@ -29,9 +28,6 @@ let sRot = seconds * 6 - 96;
 const clock = function() {
 	
 	let timeNow = new Date();
-	// DEBUG: new Date(year, month, day, hours, minutes, seconds)
-	// timeNow = new Date(2019,7,21,18,22,41);
-	// DEBUG end
 	
 	// Display the date
 	let day = timeNow.getDay();
@@ -42,7 +38,6 @@ const clock = function() {
 	// Each second is 6 degrees of arc.
 	// Second hand moves in discrete steps
 	let seconds = timeNow.getSeconds();
-	// let sRot = seconds * 6 - 90;
 	sRot = sRot + 6;
 	
 	// Each minute is 6 degrees of arc. 

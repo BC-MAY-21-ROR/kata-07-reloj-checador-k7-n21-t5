@@ -1,48 +1,48 @@
 <html>
-<head>
-</head>
-<body>
-<div class ="container">
-	<div class ="row justify-content-end">
-		<div class ="col-1">
-			<button type="submit" class="btn btn-primary">Admin</button>
-		</div>
-	</div>
-</div>
-<div class="container ">
-	<div class ="row align-items-center d-flex">
-		<div class ="col-6">
-			<form>
-				<div class="form-group">
-					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Private number">
+	<head>
+	</head>
+	<body>
+		<div class ="container">
+			<div class ="row justify-content-end">
+				<div class ="col-1">
+					<button type="submit" class="btn btn-primary">Admin</button>
 				</div>
-				<button type="submit" class="btn btn-success check_in">Check In</button>
-				<button type="submit" class="btn btn-danger check_out">Check Out</button>
-			</form>
+			</div>
 		</div>
-		<div class ="col-6 align-self-center">
-			<div class="container container3">
-				<div class="clock">
-					<div id="date" class="date box"></div>
-					<div class="clock-face">
-						<div class="marker twelve"></div>
-						<div class="marker three"></div>
-						<div class="marker six"></div>
-						<div class="marker nine"></div>
-						<div id="minute-hand" class="hand minute-hand"></div>
-						<div id="hour-hand" class="hand hour-hand"></div>
-						<div id="second-hand" class="hand second-hand"></div>
-						<div id="centre" class="centre"></div>
-						<div id="digital-time" class="digital-time box"></div>
+		<div class="container ">
+			<div class ="row align-items-center d-flex">
+				<div class ="col-6">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Private number">
+						</div>
+						<button type="submit" class="btn btn-success check_in">Check In</button>
+						<button type="submit" class="btn btn-danger check_out">Check Out</button>
+					</form>
+				</div>
+				<div class ="col-6 align-self-center">
+					<div class="container container-employee">
+						<div class="clock">
+							<div id="date" class="date box"></div>
+							<div class="clock-face">
+								<div class="marker twelve"></div>
+								<div class="marker three"></div>
+								<div class="marker six"></div>
+								<div class="marker nine"></div>
+								<div id="minute-hand" class="hand minute-hand"></div>
+								<div id="hour-hand" class="hand hour-hand"></div>
+								<div id="second-hand" class="hand second-hand"></div>
+								<div id="centre" class="centre"></div>
+								<div id="digital-time" class="digital-time box"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-    <%= javascript_pack_tag 'employee' %>
-</body>
+		<%= javascript_pack_tag 'employee' %>
+	</body>
 </html>
 
 
