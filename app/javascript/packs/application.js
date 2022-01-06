@@ -6,7 +6,15 @@
 // require turbolinks
 //= require_tree
 //= require bootstrap-sprockets
+<<<<<<< HEAD
 //= require employee
+=======
+//= require moment 
+//= require fullcalendar
+//= require fullcalendar/locale-all
+
+$('#calendar').fullCalendar({});
+>>>>>>> 3af6f1d (Adding initial desing)
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
