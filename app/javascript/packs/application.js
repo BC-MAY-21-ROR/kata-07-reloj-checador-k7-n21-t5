@@ -8,18 +8,26 @@
 //= require bootstrap-sprockets
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //= require employee
 =======
 =======
 >>>>>>> 3af6f1d (Adding initial desing)
+=======
+//= require employee
+=======
+>>>>>>> 8696622 (Adding initial desing)
 //= require moment 
 //= require fullcalendar
 //= require fullcalendar/locale-all
 
 $('#calendar').fullCalendar({});
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3af6f1d (Adding initial desing)
 =======
+=======
+>>>>>>> 8696622 (Adding initial desing)
 >>>>>>> 3af6f1d (Adding initial desing)
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
