@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.js" integrity="sha256-nCXGH8kkPFozCBx4meHWhA5OCqXhhBzoBVpHfM/HmwM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.css" integrity="sha256-zsz1FbyNCtIE2gIB+IyWV7GbCLyKJDTBRz0qQaBSLxM=" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class ="container col-10">
+      <div id='calendar'></div>
+    </div>
+  </body>
+</html>
