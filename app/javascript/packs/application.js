@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //= require employee
 =======
 =======
@@ -17,6 +18,8 @@
 //= require employee
 =======
 >>>>>>> 8696622 (Adding initial desing)
+=======
+>>>>>>> 3af6f1d (Adding initial desing)
 //= require moment 
 //= require fullcalendar
 //= require fullcalendar/locale-all
@@ -24,10 +27,13 @@
 $('#calendar').fullCalendar({});
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3af6f1d (Adding initial desing)
 =======
 =======
 >>>>>>> 8696622 (Adding initial desing)
+>>>>>>> 3af6f1d (Adding initial desing)
+=======
 >>>>>>> 3af6f1d (Adding initial desing)
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
