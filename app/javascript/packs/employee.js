@@ -1,9 +1,9 @@
 // Arrays of strings for the date display
 const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const months = [
-	'Jan', 'Feb', 'Mar', 'Apr', 
-	'May', 'Jun', 'Jul', 'Aug', 
-	'Sep', 'Oct', 'Nov', 'Dec'
+  'Jan', 'Feb', 'Mar', 'Apr', 
+  'May', 'Jun', 'Jul', 'Aug', 
+  'Sep', 'Oct', 'Nov', 'Dec'
 ];
 
 // Get the DOM elements
@@ -15,8 +15,8 @@ const digitalTime = document.getElementById('digital-time');
 
 let darkMode = localStorage.getItem('darkmode');
 if (darkMode == 'yes') {
-	document.body.classList.add('dark');
-	document.getElementById('dark-mode-toggle').checked = 'true';
+  document.body.classList.add('dark');
+  document.getElementById('dark-mode-toggle').checked = 'true';
 }
 
 // Initialise second hand
@@ -27,46 +27,46 @@ let sRot = seconds * 6 - 96;
 // Get and display the time
 const clock = function() {
 	
-	let timeNow = new Date();
+  let timeNow = new Date();
 	
 	// Display the date
-	let day = timeNow.getDay();
-	let date = timeNow.getDate();
-	let month = timeNow.getMonth();
-	dateDisplay.innerHTML = `${days[day]}, ${format(date)} ${months[month]}`;
+  let day = timeNow.getDay();
+  let date = timeNow.getDate();
+  let month = timeNow.getMonth();
+  dateDisplay.innerHTML = `${days[day]}, ${format(date)} ${months[month]}`;
 	
 	// Each second is 6 degrees of arc.
 	// Second hand moves in discrete steps
-	let seconds = timeNow.getSeconds();
-	sRot = sRot + 6;
+  let seconds = timeNow.getSeconds();
+  sRot = sRot + 6;
 	
 	// Each minute is 6 degrees of arc. 
 	// Add seconds/10 for smooth movement of minute hand
-	let minutes = timeNow.getMinutes();
-	let mRot = (minutes * 6) + (seconds / 10) - 90;
+  let minutes = timeNow.getMinutes();
+  let mRot = (minutes * 6) + (seconds / 10) - 90;
 	
 	// Each hour is 30 degrees of arc. 
 	// Add minutes/2 for smooth movement of hour hand
-	let hours = timeNow.getHours();
-	let hRot = (hours % 12 * 30) + (minutes / 2) - 90;
+  let hours = timeNow.getHours();
+  let hRot = (hours % 12 * 30) + (minutes / 2) - 90;
 	
 	// Position the hands
-	hourHand.style.transform = `rotate(${hRot}deg)`;
-	minuteHand.style.transform = `rotate(${mRot}deg)`;
-	secondHand.style.transform = `rotate(${sRot}deg)`;
+  hourHand.style.transform = `rotate(${hRot}deg)`;
+  minuteHand.style.transform = `rotate(${mRot}deg)`;
+  secondHand.style.transform = `rotate(${sRot}deg)`;
 	
 	// Display the digital clock
-	digitalTime.innerHTML = `${format(hours)}:${format(minutes)}:${format(seconds)}`;
+  digitalTime.innerHTML = `${format(hours)}:${format(minutes)}:${format(seconds)}`;
 	
 }
 
 // Helper function to add leading zero
 function format(num) {
-	return num < 10 ? `0${num}` : num;
+  return num < 10 ? `0${num}` : num;
 }
 
 // IIFE to run the clock
 (function run() {
-	clock();
-	setTimeout(function() { run(); }, 1000);
+  clock();
+  setTimeout(function() { run(); }, 1000);
 })();
