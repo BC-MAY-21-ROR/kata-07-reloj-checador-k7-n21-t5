@@ -6,7 +6,7 @@ class CreateEmployees < ActiveRecord::Migration[6.1]
       t.string :email
       t.string :name
       t.string :position
-      t.bolean :status
+      t.boolean :status
       t.references :branches, null: false, foreign_key: true
 
       t.timestamps
