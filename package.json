@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "fullcalendar": "^5.10.1",
 >>>>>>> 3af6f1d (Adding initial desing)
@@ -21,6 +22,9 @@
 =======
     "fullcalendar": "^5.10.1",
 >>>>>>> 3af6f1d (Adding initial desing)
+=======
+    "fullcalendar": "^5.10.1",
+>>>>>>> 28daa45 (Added navbar)
     "turbolinks": "^5.2.0",
     "vue": "^2.6.14",
     "vue-loader": "^15.9.8",
