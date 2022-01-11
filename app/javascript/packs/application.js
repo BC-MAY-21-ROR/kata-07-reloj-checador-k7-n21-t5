@@ -7,14 +7,20 @@
 //= require_tree
 //= require bootstrap-sprockets
 <<<<<<< HEAD
+<<<<<<< HEAD
 //= require employee
 =======
+=======
+>>>>>>> 2eb8759757c00370de2c639eefe2f521e97494af
 //= require moment 
 //= require fullcalendar
 //= require fullcalendar/locale-all
 
 $('#calendar').fullCalendar({});
+<<<<<<< HEAD
 >>>>>>> 3af6f1d (Adding initial desing)
+=======
+>>>>>>> 2eb8759757c00370de2c639eefe2f521e97494af
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
