@@ -1,48 +1,36 @@
-<html>
-
-    <head>
-
-    </head>
-
-    <body>
-		<div class ="container">
-			<div class="login-container">
-				<div class="d-flex justify-content-center h-100">
-					<div class="card">
-						<div class="card-header">
-							<h3>Sign In</h3>
-							<div class="d-flex justify-content-end social_icon">
-								<span><i class="fab fa-facebook-square"></i></span>
-								<span><i class="fab fa-google-plus-square"></i></span>
-								<span><i class="fab fa-twitter-square"></i></span>
+	<html>
+		<body>
+			<div class ="container">
+				<div class="login-container">
+					<div class="d-flex justify-content-center h-100">
+						<div class="card">
+							<div class="card-header">
+								<h3>Sign In</h3>
 							</div>
-						</div>
-						<div class="card-body">
-							<form action="admin" accept-charset="UTF-8" method="POST">
-								<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-								<div class="input-group form-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text"><i class="fas fa-user"></i></span>
+							<div class="card-body">
+								<form action="admin" accept-charset="UTF-8" method="POST">
+									<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+									<div class="input-group form-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-user"></i></span>
+										</div>
+										<input type="text" name ="user" id ="user"class="form-control" placeholder="username">
 									</div>
-									<input type="text" name ="user" id ="user"class="form-control" placeholder="username">
-								</div>
-								<div class="input-group form-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text"><i class="fas fa-key"></i></span>
+									<div class="input-group form-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text"><i class="fas fa-key"></i></span>
+										</div>
+										<input type="password" name="password" id="password" class="form-control" placeholder="password">
 									</div>
-									<input type="password" name="password" id="password" class="form-control" placeholder="password">
-								</div>
-								<div class="form-group">
-									<input type="submit" value="Log in" class="btn btn-light float-right login_btn">
-								</div>
-							</form>
-							<p class="text-danger"id="notice"><%= notice %></p>
+									<div class="form-group">
+										<input type="submit" value="Log in" class="btn btn-light float-right login_btn">
+									</div>
+								</form>
+								<p class="text-danger"id="notice"><%= notice %></p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-    </body>
-    <footer>
-    </footer>
-</html>
+		</body>
+	</html>
