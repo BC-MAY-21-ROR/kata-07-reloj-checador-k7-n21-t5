@@ -102,7 +102,7 @@
                     </button>
                   </td>
                   <td>
-                    <form method="post" action="disableEmployee">
+                    <form method="post" action="/disableEmployee">
                       <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
                       <input type="hidden" name ="id" value="<%= employee.id %>" id ="id" class="form-control" placeholder="privateNumber">
                       <button type="submit" class="btn btn-danger">
@@ -124,7 +124,7 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <form action="editEmployee" method="post">
+                        <form action="/editEmployee" method="post">
                           <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
                             <div class="input-group form-group">
                               <input type="hidden" name ="id" value="<%= employee.id %>" id ="id" class="form-control" placeholder="privateNumber">
@@ -181,7 +181,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form action="createEmployee" method="post">
+            <form action="/createEmployee" method="post">
               <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
                 <div class="input-group form-group">
 									<input type="text" name ="privateNumber" id ="privateNumber" class="form-control" placeholder="privateNumber">
