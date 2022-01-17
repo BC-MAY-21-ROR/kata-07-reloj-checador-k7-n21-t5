@@ -1,4 +1,4 @@
-  class CrudController < ApplicationController
+  class EmployeeCrudController < ApplicationController
   
     def index
       if params[:id] != nil

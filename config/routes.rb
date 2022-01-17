@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-  get 'crud', to: "crud#index"
-  get 'crud/:id', to: "crud#index"
+  get 'employee_status/new'
+  get 'employee_status/create'
+  get 'crud', to: "employee_crud#index"
+  get 'crud/:id', to: "employee_crud#index"
   get 'admin', to: "home#index"
-  post 'logout', to: "crud#logout"
-  post 'createEmployee', to: "crud#create"
-  post 'editEmployee', to: "crud#edit"
-  post 'disableEmployee', to: "crud#disable"
+  post 'logout', to: "employee_crud#logout"
+  post 'createEmployee', to: "employee_crud#create"
+  post 'editEmployee', to: "employee_crud#edit"
+  post 'disableEmployee', to: "employee_crud#disable"
   root "employee#employee"
 
 end
