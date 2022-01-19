@@ -11,20 +11,27 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "fullcalendar": "^5.10.1",
 >>>>>>> 3af6f1d (Adding initial desing)
 =======
 >>>>>>> 8696622 (Adding initial desing)
 =======
-    "fullcalendar": "^5.10.1",
->>>>>>> 3af6f1d (Adding initial desing)
+>>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
 =======
     "fullcalendar": "^5.10.1",
 >>>>>>> 3af6f1d (Adding initial desing)
 =======
     "fullcalendar": "^5.10.1",
+>>>>>>> 3af6f1d (Adding initial desing)
+=======
+    "fullcalendar": "^5.10.1",
+<<<<<<< HEAD
 >>>>>>> 28daa45 (Added navbar)
+=======
+>>>>>>> 28daa45e22760aef1630bdba612cb3f090bbe16f
+>>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
     "turbolinks": "^5.2.0",
     "vue": "^2.6.14",
     "vue-loader": "^15.9.8",

@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //= require employee
 =======
 =======
@@ -20,6 +21,16 @@
 >>>>>>> 8696622 (Adding initial desing)
 =======
 >>>>>>> 3af6f1d (Adding initial desing)
+=======
+//= require employee
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 3af6f1d (Adding initial desing)
+=======
+>>>>>>> 2eb8759757c00370de2c639eefe2f521e97494af
+>>>>>>> 28daa45e22760aef1630bdba612cb3f090bbe16f
+>>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
 //= require moment 
 //= require fullcalendar
 //= require fullcalendar/locale-all
@@ -28,6 +39,7 @@ $('#calendar').fullCalendar({});
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 3af6f1d (Adding initial desing)
 =======
 =======
@@ -35,6 +47,15 @@ $('#calendar').fullCalendar({});
 >>>>>>> 3af6f1d (Adding initial desing)
 =======
 >>>>>>> 3af6f1d (Adding initial desing)
+=======
+>>>>>>> 3af6f1d (Adding initial desing)
+=======
+<<<<<<< HEAD
+>>>>>>> 3af6f1d (Adding initial desing)
+=======
+>>>>>>> 2eb8759757c00370de2c639eefe2f521e97494af
+>>>>>>> 28daa45e22760aef1630bdba612cb3f090bbe16f
+>>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
