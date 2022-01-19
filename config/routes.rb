@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  get 'employee_status/new'
-  get 'employee_status/create'
   get 'crud', to: "employee_crud#index"
   get 'crud/:id', to: "employee_crud#index"
+  get 'reports/index', to: "reports#index"
   get 'admin', to: "home#index"
   post 'admin', to: "home#login"
   post 'logout', to: "employee_crud#logout"
