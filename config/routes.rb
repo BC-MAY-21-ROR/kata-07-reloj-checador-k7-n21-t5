@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  get 'employee_status/new'
-  get 'employee_status/create'
   get 'crud', to: "employee_crud#index"
   get 'crud/:id', to: "employee_crud#index"
   get 'admin', to: "home#index"
@@ -9,5 +7,6 @@ Rails.application.routes.draw do
   post 'createEmployee', to: "employee_crud#create"
   post 'editEmployee', to: "employee_crud#edit"
   post 'disableEmployee', to: "employee_crud#disable"
+  post 'check', to: "employee#check"
   root "employee#employee"
 end
