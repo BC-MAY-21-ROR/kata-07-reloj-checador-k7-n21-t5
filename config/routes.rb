@@ -5,8 +5,9 @@ Rails.application.routes.draw do
   get 'admin', to: "home#index"
   post 'admin', to: "home#login"
   post 'logout', to: "employee_crud#logout"
-  post 'createEmployee', to: "employee_crud#create"
-  post 'editEmployee', to: "employee_crud#edit"
-  post 'disableEmployee', to: "employee_crud#disable"
+  post 'create_employee', to: "employee_crud#create"
+  post 'edit_employee', to: "employee_crud#edit"
+  post 'disable_employee', to: "employee_crud#disable"
+  post 'check', to: "employee#check"
   root "employee#employee"
 end
