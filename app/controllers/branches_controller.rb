@@ -1,4 +1,4 @@
-class BranchCrudController < ApplicationController
+class BranchesController < ApplicationController
   before_action :require_login
   def index
     @branches = Branch.all
