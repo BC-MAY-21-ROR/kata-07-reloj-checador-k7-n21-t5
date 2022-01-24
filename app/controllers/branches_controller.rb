@@ -19,16 +19,13 @@ class BranchesController < ApplicationController
 
   def edit
     @branch = Branch.find(params[:id])
-    if @branch.update(:store=>params[:store],:name=>params[:name],:address=>params[:address])
-      redirect_to branches_path
-    end
+    redirect_to branches_path if @branch.update(store: params[:store], name: params[:name],
+    address: params[:address])
   end
   
   def delete
     @branch = Branch.find(params[:id])
-    if @branch.destroy
-      redirect_to branches_path
-    end
+    redirect_to branches_path if @branch.destroy
   end
 
   private
