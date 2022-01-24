@@ -21,10 +21,14 @@
   
     def create
       @emp = Employee.new(employee_params)
-      if @emp.save
-        redirect_to crud_path
+      if @emp2 = Employee.find_by(privateNumber:params[:privateNumber])
+        redirect_to crud_path, notice: 'The private number already exists'
       else
-        render :new
+        if @emp.save
+          redirect_to crud_path
+        else
+          render :new
+        end
       end
     end
   
