@@ -1,8 +1,6 @@
 // Place all the styles related to the reports controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-
-
 .fc-view-harness{
     background-color: white;
 }
@@ -10,102 +8,17 @@
 .fc-toolbar-title{
     color: white;
 }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 2eb8759 (Added check in/out and absence report desing)
-=======
->>>>>>> 9c84513 (Added check in/out and absence report desing)
-=======
->>>>>>> 2eb8759 (Added check in/out and absence report desing)
-=======
-=======
->>>>>>> 2eb8759 (Added check in/out and absence report desing)
-=======
->>>>>>> 28daa45e22760aef1630bdba612cb3f090bbe16f
->>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
 .btn-report{
     width: 10rem;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-#calendar{
-    height: 50rem;
-}
-
 h5{
     color: white;
-=======
-
-#calendar{
-    padding-top: 5rem;
->>>>>>> 3af6f1d (Adding initial desing)
-=======
-
-#calendar{
-    padding-top: 5rem;
-    height: 50rem;
 }
 
-h5{
-    color: white;
->>>>>>> 2eb8759 (Added check in/out and absence report desing)
-=======
 
-#calendar{
-    padding-top: 5rem;
->>>>>>> 8696622 (Adding initial desing)
-=======
-
-#calendar{
-    padding-top: 5rem;
-=======
-
-#calendar{
-    padding-top: 5rem;
-=======
-
-#calendar{
->>>>>>> 28daa45e22760aef1630bdba612cb3f090bbe16f
->>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
-    height: 50rem;
-}
-
-h5{
-    color: white;
-<<<<<<< HEAD
->>>>>>> 9c84513 (Added check in/out and absence report desing)
-=======
-<<<<<<< HEAD
->>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
-=======
-
-#calendar{
-    padding-top: 5rem;
->>>>>>> 3af6f1d (Adding initial desing)
-=======
-
-#calendar{
-    padding-top: 5rem;
-    height: 50rem;
-}
-
-h5{
-    color: white;
->>>>>>> 2eb8759 (Added check in/out and absence report desing)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 28daa45e22760aef1630bdba612cb3f090bbe16f
->>>>>>> 1ec41e58e05d3e8752f609faf3a89e10ee19cd96
+.my-custom-scrollbar {
+    position: relative;
+    height: 40rem;
+    overflow: auto;
 }

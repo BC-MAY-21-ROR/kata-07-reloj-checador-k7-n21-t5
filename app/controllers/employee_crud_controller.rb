@@ -1,4 +1,5 @@
   class EmployeeCrudController < ApplicationController
+    before_action :require_login
   
     def index
       if params[:id] != nil
